@@ -160,6 +160,8 @@ namespace Microsoft.MixedReality.WebRTC.Unity
         /// <param name="msg">the message to send</param>
         private IEnumerator PostToServer(Message msg)
         {
+            yield return new WaitUntil(() => RemotePeerId.Length > 0);
+
             if (RemotePeerId.Length == 0)
             {
                 throw new InvalidOperationException("Cannot send SDP message to remote peer; invalid empty remote peer ID.");

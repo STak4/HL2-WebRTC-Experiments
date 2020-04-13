@@ -280,6 +280,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: VideoChatDemo
       objectReference: {fileID: 0}
+    - target: {fileID: 1754267790574398, guid: 94759df28537c86408a84858950de05a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4037275511003170, guid: 94759df28537c86408a84858950de05a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -336,66 +340,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.08
       objectReference: {fileID: 0}
-    - target: {fileID: 224130425995034712, guid: 94759df28537c86408a84858950de05a,
-        type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224130425995034712, guid: 94759df28537c86408a84858950de05a,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224130425995034712, guid: 94759df28537c86408a84858950de05a,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224130425995034712, guid: 94759df28537c86408a84858950de05a,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224130425995034712, guid: 94759df28537c86408a84858950de05a,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224130425995034712, guid: 94759df28537c86408a84858950de05a,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224456867766213744, guid: 94759df28537c86408a84858950de05a,
-        type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224456867766213744, guid: 94759df28537c86408a84858950de05a,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224456867766213744, guid: 94759df28537c86408a84858950de05a,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224456867766213744, guid: 94759df28537c86408a84858950de05a,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224456867766213744, guid: 94759df28537c86408a84858950de05a,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224456867766213744, guid: 94759df28537c86408a84858950de05a,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 114129059573521262, guid: 94759df28537c86408a84858950de05a,
         type: 3}
       propertyPath: HttpServerAddress
@@ -416,14 +360,85 @@ PrefabInstance:
       propertyPath: AutoLogErrors
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 224130425995034712, guid: 94759df28537c86408a84858950de05a,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224130425995034712, guid: 94759df28537c86408a84858950de05a,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224130425995034712, guid: 94759df28537c86408a84858950de05a,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224130425995034712, guid: 94759df28537c86408a84858950de05a,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224130425995034712, guid: 94759df28537c86408a84858950de05a,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224130425995034712, guid: 94759df28537c86408a84858950de05a,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224456867766213744, guid: 94759df28537c86408a84858950de05a,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224456867766213744, guid: 94759df28537c86408a84858950de05a,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224456867766213744, guid: 94759df28537c86408a84858950de05a,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224456867766213744, guid: 94759df28537c86408a84858950de05a,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224456867766213744, guid: 94759df28537c86408a84858950de05a,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224456867766213744, guid: 94759df28537c86408a84858950de05a,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8734329137356271696, guid: 94759df28537c86408a84858950de05a,
+        type: 3}
+      propertyPath: HttpServerAddress
+      value: http://192.168.8.100:3000/
+      objectReference: {fileID: 0}
+    - target: {fileID: 8734329137356271696, guid: 94759df28537c86408a84858950de05a,
+        type: 3}
+      propertyPath: LocalPeerId
+      value: LIANOSDESKTOP
+      objectReference: {fileID: 0}
+    - target: {fileID: 8734329137356271696, guid: 94759df28537c86408a84858950de05a,
+        type: 3}
+      propertyPath: RemotePeerId
+      value: LIANOSMAC
+      objectReference: {fileID: 0}
     - target: {fileID: 8844783484497184051, guid: 94759df28537c86408a84858950de05a,
         type: 3}
       propertyPath: DeviceNameLabel2
       value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1754267790574398, guid: 94759df28537c86408a84858950de05a, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94759df28537c86408a84858950de05a, type: 3}
